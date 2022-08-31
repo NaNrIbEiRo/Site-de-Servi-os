@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.98.0">
+    <title>Serviços - Telecall</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/pricing/">
+
+    
+
+    
+
+<link href="/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/5.2/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/5.2/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico">
+<meta name="theme-color" content="#712cf9">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="pricing.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+    
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="check" viewBox="0 0 16 16">
+    <title>Check</title>
+    <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+  </symbol>
+</svg>
+
+<div class="container py-3">
+  <header>
+    <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+        <img class="d-block mx-auto mb-4" src="../../Assets/logo.svg" alt="" width="200" height="">
+      </a>
+
+      <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+        <a class="me-3 py-2 text-dark text-decoration-none" href="https://lojamobile.telecall.com/">Mobilidade</a>
+        <a class="me-3 py-2 text-dark text-decoration-none" href="https://www.telecall.com/internet">Internet</a>
+        <a class="me-3 py-2 text-dark text-decoration-none" href="https://www.telecall.com/telefonia">Telefonia</a>
+        <a class="py-2 text-dark text-decoration-none" href="https://www.telecall.com/rede-e-infraestrutura">Rede e Infraestrutura</a>
+      </nav>
+    </div>
+
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+      <h1 class="display-4 fw-normal">Conheça nossos Planos<svg xmlns="http://www.w3.org/2000/svg" width="80" height="" fill="currentColor" class="bi bi-telephone-plus-fill" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM12.5 1a.5.5 0 0 1 .5.5V3h1.5a.5.5 0 0 1 0 1H13v1.5a.5.5 0 0 1-1 0V4h-1.5a.5.5 0 0 1 0-1H12V1.5a.5.5 0 0 1 .5-.5z"/>
+      </svg></h1>
+      <br>
+      <br>
+      <p class="fs-5 text-muted">Soluções de comunicação inteligentes que vão reduzir seus gastos, aumentar sua produtividade, fidelizar seus clientes e integrar ainda mais sua equipe.</p>
+      <br>
+      <br>
+    </div>
+  </header>
+
+  <main>
+    <form action='https://loja.telecall.com/pabx-ip-softphone/p' method='get'>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card-header py-3 text-white bg-primary border-primary">
+            <h4 class="my-0 fw-normal">Oferta TOP Softphone</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">R$69,90<small class="text-muted fw-light"> mês/ramal</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Ligações ilimitadas dentro do Brasil destinos Fixo e Móvel</li>
+              <li>Softphone PC ou Celular</li>
+              <li>URA, chamada em espera, siga-me, conferencia</li>
+              <li>1 Canal</li>
+            </ul>
+            <button type="submit" class="w-100 btn btn-lg btn-primary">Contratar</button>
+    </form>
+          </div>
+        </div>
+      </div>
+    <form action='https://loja.telecall.com/pabx-ip-aparelho-ip/p' method='get'>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card-header py-3 text-white bg-primary border-primary">
+            <h4 class="my-0 fw-normal">Oferta TOP Aparelho IP</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">R$79,90<small class="text-muted fw-light"> mês/ramal</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Ligações ilimitadas dentro do Brasil destinos Fixo e Móvel</li>
+              <li>Aparelho IP</li>
+              <li>URA, chamada em espera, siga-me, conferencia</li>
+              <li>1 Canal</li>
+            </ul>
+            <button type="submit" class="w-100 btn btn-lg btn-primary">Contratar</button>
+    </form>
+          </div>
+        </div>
+      </div>
+    <form action='https://loja.telecall.com/telefonia/pabx-ip-virtual/oferta-top/adicionais' method='get'>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+          <div class="card-header py-3 text-white bg-primary border-primary">
+            <h4 class="my-0 fw-normal">Adicionais mês/ramal</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">R$19,00<small class="text-muted fw-light"> Gravação</small></h1>
+            <h1 class="card-title pricing-card-title">R$59,90<small class="text-muted fw-light"> Videoconferência (até 25 usuários)</small></h1>
+            <h1 class="card-title pricing-card-title">R$14,90<small class="text-muted fw-light"> Softphone PC ou Celular</small></h1>
+            <button type="submit" class="w-100 btn btn-lg btn-primary">Contratar</button>
+    </form>
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+    <h1 class="display-4 fw-normal">Compare Serviços de Internet</h1><svg xmlns="http://www.w3.org/2000/svg" width="100" height="" fill="currentColor" class="bi bi-router-fill" viewBox="0 0 16 16">
+        <path d="M5.525 3.025a3.5 3.5 0 0 1 4.95 0 .5.5 0 1 0 .707-.707 4.5 4.5 0 0 0-6.364 0 .5.5 0 0 0 .707.707Z"/>
+        <path d="M6.94 4.44a1.5 1.5 0 0 1 2.12 0 .5.5 0 0 0 .708-.708 2.5 2.5 0 0 0-3.536 0 .5.5 0 0 0 .707.707Z"/>
+        <path d="M2.974 2.342a.5.5 0 1 0-.948.316L3.806 8H1.5A1.5 1.5 0 0 0 0 9.5v2A1.5 1.5 0 0 0 1.5 13H2a.5.5 0 0 0 .5.5h2A.5.5 0 0 0 5 13h6a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5h.5a1.5 1.5 0 0 0 1.5-1.5v-2A1.5 1.5 0 0 0 14.5 8h-2.306l1.78-5.342a.5.5 0 1 0-.948-.316L11.14 8H4.86L2.974 2.342ZM2.5 11a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1Zm4.5-.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0Zm2.5.5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1Zm1.5-.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0Zm2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0Z"/>
+        <path d="M8.5 5.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z"/>
+      </svg>
+    <br>
+    <br>
+    </div>
+    
+    <div class="table-responsive">
+      <table class="table text-center">
+        <thead>
+          <tr>
+            <th style="width: 34%;"></th>
+            <th style="width: 22%;">Fibra Ótica</th>
+            <th style="width: 22%;">NOC 24x7</th>
+            <th style="width: 22%;">Internet Sem Fio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="text-start">Internet Dedicada</th>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-start">Banda Larga</th>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <td></td>
+          </tr>
+        </tbody>
+
+        <tbody>
+          <tr>
+            <th scope="row" class="text-start">Wi-Fi</th>
+            <td></td>
+            <td></td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer class="pt-4 my-md-5 pt-md-5 border-top">
+    <div class="row">
+      <div class="col-12 col-md">
+        <img class="d-block mx-auto mb-4" src="../../Assets/logo.svg" alt="" width="150" height="">
+      </div>
+      <div class="col-6 col-md">
+        <h5>Telefonia</h5>
+        <ul class="list-unstyled text-small">
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="https://www.telecall.com/pabx-ip">PABX IP Virtual</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="https://www.telecall.com/telefonia/e1">E1</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="https://www.telecall.com/telefonia/sip-trunk">SIP THUNK</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="https://conteudo.telecall.com/lp0800-40xx">Números 0800 e 40XX</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Internet</h5>
+        <ul class="list-unstyled text-small">
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="https://www.telecall.com/internet/internet-dedicada">Link Dedicado</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="https://www.telecall.com/internet/banda-larga">Banda Larga</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="https://www.telecall.com/internet/wi-fi">Wi-Fi</a></li>
+          </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Rede e Infraestrutura</h5>
+        <ul class="list-unstyled text-small">
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="https://www.telecall.com/rede-e-infraestrutura/callnet-ponto-a-ponto">Ponto-a-Ponto</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="https://www.telecall.com/rede-e-infraestrutura/mpls">MPLS</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="https://www.telecall.com/rede-e-infraestrutura/fibra-apagada-e-dutos">Fibra Apagada e Dutos</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="https://www.telecall.com/rede-e-infraestrutura/co-location">Co-location</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>  
+  </body>
+</html>
